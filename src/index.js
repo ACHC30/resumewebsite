@@ -1,13 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./App";
+import Contact from "./Pages/Contact";
+import Education from "./Pages/Education";
+import Experience from "./Pages/Experience";
+import Skills from "./Pages/Skills";
+import Summary from "./Pages/Summary";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/Education" element={<Education />}></Route>
+        <Route path="/Experience" element={<Experience />}></Route>
+        <Route path="/Skills" element={<Skills />}></Route>
+        <Route path="/Summary" element={<Summary />}></Route>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
