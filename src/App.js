@@ -3,7 +3,7 @@ import Layout from "./Public Page/Layout";
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <header>
         <Layout />
       </header>

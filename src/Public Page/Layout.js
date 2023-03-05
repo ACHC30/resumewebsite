@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Layout() {
   return (
     <div>
-      <header>
+      <header style={{ textAlign: "center" }}>
         <h1>Resume Website</h1>
         <h2>Christopher Chandra</h2>
         <h3>Choose The Link for different kind of details</h3>
