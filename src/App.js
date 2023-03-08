@@ -1,22 +1,20 @@
 import "./App.css";
-import Layout from "./Public Page/Layout";
+import Header from "./Public Page/Header";
 
 function App() {
   return (
     <div>
       <header>
-        <Layout />
+        <Header />
       </header>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor
-        sed eros in dignissim. Fusce egestas mauris sed dapibus commodo. Proin
-        sagittis ex in turpis porta, id varius mi laoreet. Etiam dictum elit et
-        ultricies feugiat. Curabitur condimentum massa sed ullamcorper aliquet.
-        Nam eu laoreet risus. Fusce maximus mauris consectetur dui iaculis
-        pulvinar. Proin enim arcu, maximus quis leo a, finibus eleifend nisl.
-        Integer sed auctor mauris. Nunc rhoncus posuere nisl, ac pulvinar odio
-        pellentesque a.
-      </p>
+      <h4 style={{ textAlign: "Center" }}>
+        This is a personal project website that i have created in order to keep
+        my coding skills sharp. besides that i would also make this website for
+        my recriuters to see my coding skills. Im planning on adding more stuffs
+        to the website and welcome any feedback from anyone. For now since i do
+        not have any features to get feedback for my website you can leave
+        feedbacks at my email in the contact details. Thank you for visiting!
+      </h4>
     </div>
   );
 }

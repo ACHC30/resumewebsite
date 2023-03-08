@@ -1,10 +1,10 @@
 import logo from "../logo.svg";
-import Layout from "../Public Page/Layout";
+import Header from "../Public Page/Header";
 function Summary() {
   return (
     <div>
-      <Layout />
-      <p>
+      <Header />
+      <p style={{ textAlign: "center" }}>
         A recent graduate from Queensland University of Technology (QUT), I am
         actively looking for a job in order to gain some work experience for my
         Skill assessment. I'm a team player, loyal to a fault, very adaptable, I

@@ -1,8 +1,8 @@
-import Layout from "../Public Page/Layout";
+import Header from "../Public Page/Header";
 function Skills() {
   return (
     <div>
-      <Layout />
+      <Header />
       <h1>Coding Skills</h1>
       <ul>
         <li>C#</li>
