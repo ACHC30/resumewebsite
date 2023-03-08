@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // this layout page would be used in multiple pages to serve as their header.
-function Layout() {
+function Header() {
   return (
     <div>
       <header style={{ textAlign: "center" }}>
@@ -35,4 +35,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default Header;
