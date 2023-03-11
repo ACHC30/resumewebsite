@@ -2,6 +2,7 @@ import Header from "../Public Page/Header";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
+import ListCellRenderer from "../Components/ListCellRenderer";
 
 function Experience() {
   const defaultColDef = {
@@ -61,9 +62,11 @@ function Experience() {
       activity: "",
     },
   ];
+  const numbers = ["1", "2", "3"];
   return (
     <div>
       <Header />
+      <ListCellRenderer list={numbers} />
       <div
         className="ag-theme-alpine"
         style={{ height: "300px", width: "100%" }}
