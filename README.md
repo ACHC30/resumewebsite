@@ -1,3 +1,10 @@
+To do List:
+-react table with list in a cell
+-menu bar
+-how to make the website stay up (deployment)
+
+http://192.168.18.21:3000
+
 # Resume Website (React.js)
 
 **My own personal project, I will attempt to make a website that will show my skills in the most interesting way possible.
