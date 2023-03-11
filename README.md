@@ -1,6 +1,6 @@
-To do List:
--react table with list in a cell
--menu bar
+# To do List:
+
+-Integrate navbar nav bar ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -how to make the website stay up (deployment)
 
 http://192.168.18.21:3000
