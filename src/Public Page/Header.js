@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { NavLink } from "../Components/Navbar";
+import { Nav, NavLink, NavMenu } from "../Components/Navbar";
 
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {
@@ -10,28 +10,26 @@ function Header() {
         <h2>Christopher Chandra</h2>
         <h3>Choose The Link for different kind of details</h3>
       </header>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <Link to="/Contact">Contact Details</Link>
-          </li>
-          <li>
-            <Link to="/Summary">Summary</Link>
-          </li>
-          <li>
-            <Link to="/Skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/Experience">Experience</Link>
-          </li>
-          <li>
-            <Link to="/Education">Education and Training</Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav>
+        <NavMenu>
+          <NavLink to="/">Home</NavLink>
+        </NavMenu>
+        <NavMenu>
+          <Link to="/Contact">Contact Details</Link>
+        </NavMenu>
+        <NavMenu>
+          <Link to="/Summary">Summary</Link>
+        </NavMenu>
+        <NavMenu>
+          <Link to="/Skills">Skills</Link>
+        </NavMenu>
+        <NavMenu>
+          <Link to="/Experience">Experience</Link>
+        </NavMenu>
+        <NavMenu>
+          <Link to="/Education">Education and Training</Link>
+        </NavMenu>
+      </Nav>
     </div>
   );
 }
