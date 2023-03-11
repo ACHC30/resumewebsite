@@ -1,6 +1,11 @@
 function ListCellRenderer(props) {
-  const list = props.list;
-  const result = list.map((item) => <h1>Hi, {item}</h1>);
+  //console.log(props.getValue());
+  var result = "";
+  if (props.getValue()) {
+    result = props.getValue().map((item) => <p>•{item}</p>);
+  } else {
+    result = "Nothing";
+  }
   return result;
 }
 
