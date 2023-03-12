@@ -12,8 +12,6 @@
   height: 40vmin;
 }
 
-    
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,4 +25,17 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.skill-parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.skill-child {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
