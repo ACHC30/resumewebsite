@@ -1,4 +1,4 @@
-import logo from "../logo.svg";
+import myFace from "../Images/MyFace.jpg";
 import Header from "../Public Page/Header";
 function Summary() {
   return (
@@ -12,7 +12,9 @@ function Summary() {
         leave things half way when working with anyone. I tend to finish what I
         started and am open to challenges that come my way.
       </p>
-      <img src={logo} className="App-logo" alt="logo" />
+      <div className="App-logo-wrapper">
+        <img src={myFace} className="App-logo" alt="logo" />
+      </div>
     </div>
   );
 }
