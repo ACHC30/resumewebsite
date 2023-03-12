@@ -2,11 +2,15 @@
   text-align: center;
 }
 
-.App-logo-wrapper {
+.App-logo-wrapper-center {
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.App-logo-circular {
+  height: 40vmin;
+  border-radius: 50%;
 }
 .App-logo {
   height: 40vmin;
@@ -35,7 +39,6 @@
 
 .skill-child {
   display: inline-block;
-  border: 1px solid red;
   padding: 1rem 1rem;
   vertical-align: middle;
 }
