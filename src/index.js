@@ -10,6 +10,7 @@ import Education from "./Pages/Education";
 import Experience from "./Pages/Experience";
 import Skills from "./Pages/Skills";
 import Summary from "./Pages/Summary";
+import ReactSkills from "./Pages/SkillsWithReact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/Experience" element={<Experience />}></Route>
         <Route path="/Skills" element={<Skills />}></Route>
         <Route path="/Summary" element={<Summary />}></Route>
+        <Route path="/ReactSkills" element={<ReactSkills />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>
