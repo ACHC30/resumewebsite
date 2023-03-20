@@ -1,11 +1,13 @@
 # To do List:
 
--Continue with the contact details (https://nicepage.com/d/2122024/all-contacts-information-web-design)
+-handle href warning
+-Continue Making footer (https://web-eau.net/en/blog/10-best-footer-html-css-snippets)
+-Integrate Footer
 -Design ReactSkillsMenu
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
+-color of contact, better it
 -Better Original Design for navbar
--Continue Making footer
--Integrate Footer
+
 -How to make the website stay up (deployment)
 
 http://192.168.18.21:3000
