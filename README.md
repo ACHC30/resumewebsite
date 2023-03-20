@@ -1,6 +1,6 @@
 # To do List:
 
--Continue with the contact details (https://nicepage.com/d/2122024/all-contacts-information-web-design)
+-color of contact, better it
 -Design ReactSkillsMenu
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -Better Original Design for navbar
