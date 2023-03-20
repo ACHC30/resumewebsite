@@ -22,13 +22,19 @@ function Contact() {
             <p>Wolloonggabba, QLD 4102</p>
 
             <h2>Phone Number</h2>
-            <p>0432 644 477 OR (+62) 432 644 477</p>
+            <p>0432 644 477 </p>
+            <p>OR</p>
+            <p>(+62) 432 644 477</p>
 
             <h2>Linkedin</h2>
-            <p>linkedin.com/in/christopher-chandra-9601bb1b9</p>
+            <a href="linkedin.com/in/christopher-chandra-9601bb1b9">
+              linkedin.com/in/christopher-chandra-9601bb1b9
+            </a>
 
             <h2>Github Profile</h2>
-            <p>https://github.com/ACHC30</p>
+            <a href="linkedin.com/in/christopher-chandra-9601bb1b9">
+              https://github.com/ACHC30
+            </a>
 
             <h2>Email</h2>
             <p>chandrachristopher43@gmail.com</p>
