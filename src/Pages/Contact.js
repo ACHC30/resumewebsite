@@ -32,9 +32,7 @@ function Contact() {
             </a>
 
             <h2>Github Profile</h2>
-            <a href="linkedin.com/in/christopher-chandra-9601bb1b9">
-              https://github.com/ACHC30
-            </a>
+            <a href="https://github.com/ACHC30">https://github.com/ACHC30</a>
 
             <h2>Email</h2>
             <p>chandrachristopher43@gmail.com</p>
