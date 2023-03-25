@@ -9,6 +9,8 @@
 -Better Original Design for navbar
 
 -How to make the website stay up (deployment)
+-unittest
+-documentation
 
 http://192.168.18.21:3000
 
