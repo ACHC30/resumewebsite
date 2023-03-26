@@ -1,5 +1,6 @@
 import myFace from "../Images/MyFace.jpg";
 import Header from "../Public Page/Header";
+import Footer from "../Public Page/Footer";
 function Summary() {
   return (
     <div>
@@ -15,6 +16,7 @@ function Summary() {
       <div className="App-logo-wrapper">
         <img src={myFace} className="App-logo" alt="logo" />
       </div>
+      <Footer />
     </div>
   );
 }
