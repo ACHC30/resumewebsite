@@ -1,6 +1,5 @@
 # To do List:
 
--handle href warning
 -Continue Making footer (https://web-eau.net/en/blog/10-best-footer-html-css-snippets)
 -Integrate Footer
 -Design ReactSkillsMenu

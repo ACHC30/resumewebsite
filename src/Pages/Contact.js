@@ -27,12 +27,12 @@ function Contact() {
             <p>(+62) 432 644 477</p>
 
             <h2>Linkedin</h2>
-            <a href="linkedin.com/in/christopher-chandra-9601bb1b9">
-              linkedin.com/in/christopher-chandra-9601bb1b9
+            <a href="https://www.linkedin.com/in/christopher-chandra-9601bb1b9/">
+              linkedin.com/in/christopher-chandra
             </a>
 
             <h2>Github Profile</h2>
-            <a href="https://github.com/ACHC30">https://github.com/ACHC30</a>
+            <a href="https://github.com/ACHC30">https://github.com</a>
 
             <h2>Email</h2>
             <p>chandrachristopher43@gmail.com</p>
