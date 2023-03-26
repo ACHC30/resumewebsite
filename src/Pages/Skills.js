@@ -1,4 +1,5 @@
 import Header from "../Public Page/Header";
+import Footer from "../Public Page/Footer";
 function Skills() {
   return (
     <div>
@@ -33,6 +34,7 @@ function Skills() {
           </ul>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

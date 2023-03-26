@@ -3,6 +3,7 @@ import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 import ListCellRenderer from "../Components/ListCellRenderer";
+import Footer from "../Public Page/Footer";
 
 function Education() {
   const defaultColDef = {
@@ -73,6 +74,7 @@ function Education() {
           pagination={true}
         />
       </div>
+      <Footer/>
     </div>
   );
 }
