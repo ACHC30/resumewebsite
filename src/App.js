@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Public Page/Header";
+import Footer from "./Public Page/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         not have any features to get feedback for my website you can leave
         feedbacks at my email in the contact details. Thank you for visiting!
       </h4>
+      <Footer />
     </div>
   );
 }
