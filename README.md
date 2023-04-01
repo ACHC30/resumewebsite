@@ -1,6 +1,4 @@
 # To do List:
-
--Integrate Footer
 -Design ReactSkillsMenu
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -color of contact, better it

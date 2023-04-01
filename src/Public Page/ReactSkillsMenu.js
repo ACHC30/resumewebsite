@@ -6,7 +6,10 @@ function ReactSkills() {
   return (
     <div>
       <header style={{ textAlign: "center" }}>
-        <h1>Choose which one would you like to see</h1>
+        <h1>
+          This page is made so you could see what kind coding skill i have
+        </h1>
+        <h2>Choose which one would you like to see</h2>
       </header>
       <Nav>
         <NavMenu>
