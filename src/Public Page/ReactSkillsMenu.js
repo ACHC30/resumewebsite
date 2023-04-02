@@ -13,25 +13,25 @@ function ReactSkills() {
       </header>
       <Nav>
         <NavMenu>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">API</NavLink>
         </NavMenu>
         <NavMenu>
-          <Link to="/Contact">Contact Details</Link>
+          <Link to="/">Server side</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/Summary">Summary</Link>
+          <Link to="/">Client Side</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/Skills">Skills</Link>
+          <Link to="/">Database</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/Experience">Experience</Link>
+          <Link to="/">Files</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/Education">Education and Training</Link>
+          <Link to="/">Date time & calendar</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/ReactSkills">Skills With React</Link>
+          <Link to="/">Animations</Link>
         </NavMenu>
       </Nav>
     </div>
