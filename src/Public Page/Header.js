@@ -32,6 +32,9 @@ function Header() {
         <NavMenu>
           <Link to="/ReactSkills">Skills With React</Link>
         </NavMenu>
+        <NavMenu>
+          <Link to="/Projects">Projects</Link>
+        </NavMenu>
       </Nav>
     </div>
   );
