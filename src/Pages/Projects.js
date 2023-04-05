@@ -1,7 +1,7 @@
 function Projects() {
   return (
     <div>
-      <h1>test</h1>
+      <h1>Title</h1>
       <p>this page will provide links to all my previous projects</p>
     </div>
   );
