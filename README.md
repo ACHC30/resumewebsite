@@ -1,3 +1,18 @@
+# To do List:
+
+-update projects
+-projects links to github
+-Design ReactSkillsMenu
+-Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
+-color of contact, better it
+-Better Original Design for navbar
+
+-How to make the website stay up (deployment)
+-unittest
+-documentation
+
+http://192.168.18.21:3000
+
 # Resume Website (React.js)
 
 **My own personal project, I will attempt to make a website that will show my skills in the most interesting way possible.
