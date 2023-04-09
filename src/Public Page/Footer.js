@@ -4,13 +4,10 @@ function Footer() {
       <footer>
         <div class="social">
           <a href="#">
-            <i class="icon ion-social-instagram"></i>
+            <i class="icon ion-social-linkedin"></i>
           </a>
           <a href="#">
-            <i class="icon ion-social-snapchat"></i>
-          </a>
-          <a href="#">
-            <i class="icon ion-social-twitter"></i>
+            <i class="icon ion-social-github"></i>
           </a>
           <a href="#">
             <i class="icon ion-social-facebook"></i>
