@@ -10,6 +10,7 @@
 -How to make the website stay up (deployment)
 -unittest
 -documentation
+-use giphy api for personal web skill
 
 http://192.168.18.21:3000
 
