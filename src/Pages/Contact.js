@@ -3,7 +3,7 @@ import myFace from "../Images/MyFace.jpg";
 import Footer from "../Public Page/Footer";
 function Contact() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <div className="skill-parent">
         <div className="skill-child">

@@ -2,7 +2,7 @@ import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
 function Skills() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <div className="skill-parent">
         <div className="skill-child">

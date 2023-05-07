@@ -61,7 +61,7 @@ function Education() {
     },
   ];
   return (
-    <div>
+    <div className="App">
       <Header />
       <div
         className="ag-theme-alpine"

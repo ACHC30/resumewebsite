@@ -4,8 +4,8 @@ import { Nav, NavLink, NavMenu } from "../Components/Navbar";
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {
   return (
-    <div>
-      <header style={{ textAlign: "center" }}>
+    <div className="App">
+      <header>
         <h1>Resume Website</h1>
         <h2>Christopher Chandra</h2>
         <h3>Choose The Link for different kind of details</h3>
