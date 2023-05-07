@@ -3,7 +3,7 @@ import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
 function Summary() {
   return (
-    <div>
+    <div className="App">
       <Header />
       <p style={{ textAlign: "center" }}>
         A recent graduate from Queensland University of Technology (QUT), I am

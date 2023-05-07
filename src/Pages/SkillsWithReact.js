@@ -3,7 +3,7 @@ import ReactSkills from "../Public Page/ReactSkillsMenu";
 import Footer from "../Public Page/Footer";
 function SkillsWithReact() {
   return (
-    <div>
+    <div className="App">
       <Headers />
       <ReactSkills />
       <Footer />

@@ -4,11 +4,9 @@ import Footer from "./Public Page/Footer";
 
 function App() {
   return (
-    <div>
-      <header>
-        <Header />
-      </header>
-      <h4 style={{ textAlign: "Center" }}>
+    <div className="App">
+      <Header />
+      <h4>
         This is a personal project website that i have created in order to keep
         my coding skills sharp. besides that i would also make this website for
         my recriuters to see my coding skills. Im planning on adding more stuffs

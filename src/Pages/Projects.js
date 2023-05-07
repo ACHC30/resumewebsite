@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div>
+    <div className="App">
       <h2>Title</h2>
       <p>this page will provide links to all my previous projects</p>
     </div>

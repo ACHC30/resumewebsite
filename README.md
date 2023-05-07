@@ -4,10 +4,10 @@
 -projects links to github
 -Design ReactSkillsMenu
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
--color of contact, better it
 -Better Original Design for navbar
+-Fix the fotter fonts
 
--How to make the website stay up (deployment)
+-Host the website on AWS (find out how)
 -unittest
 -documentation
 -use giphy api for personal web skill
