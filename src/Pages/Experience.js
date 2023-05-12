@@ -1,9 +1,10 @@
 import Header from "../Public Page/Header";
+import Footer from "../Public Page/Footer";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 import ListCellRenderer from "../Components/ListCellRenderer";
-import Footer from "../Public Page/Footer";
+
 
 function Experience() {
   const defaultColDef = {

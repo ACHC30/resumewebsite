@@ -1,11 +1,9 @@
 # To do List:
 
--update projects
 -projects links to github
 -Design ReactSkillsMenu
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -Better Original Design for navbar
--Fix the fotter fonts
 
 -Host the website on AWS (find out how)
 -unittest
