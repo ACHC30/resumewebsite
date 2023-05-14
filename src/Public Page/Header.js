@@ -30,10 +30,10 @@ function Header() {
           <Link to="/Education">Education and Training</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/ReactSkills">Skills With React</Link>
+          <Link to="/Projects">Projects</Link>
         </NavMenu>
         <NavMenu>
-          <Link to="/Projects">Projects</Link>
+          <Link to="/ReactSkills">Skills With React</Link>
         </NavMenu>
       </Nav>
     </div>
