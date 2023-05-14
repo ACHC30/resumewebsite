@@ -5,13 +5,22 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import App from "./App";
+//main pages
 import Contact from "./Main Pages/Contact";
 import Education from "./Main Pages/Education";
 import Experience from "./Main Pages/Experience";
 import Skills from "./Main Pages/Skills";
 import Summary from "./Main Pages/Summary";
-import ReactSkills from "./Main Pages/SkillsWithReact";
 import Projects from "./Main Pages/Projects";
+import ReactSkills from "./Main Pages/SkillsWithReact";
+//skills with react pages
+import API from "./Skills With React Pages/API";
+import Animation from "./Skills With React Pages/Animation";
+import Client from "./Skills With React Pages/Client";
+import Database from "./Skills With React Pages/Database";
+import DateTime from "./Skills With React Pages/DateTime";
+import Files from "./Skills With React Pages/Files";
+import Server from "./Skills With React Pages/Server";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,7 +37,13 @@ root.render(
 
         <Route path="/ReactSkills" element={<ReactSkills />}></Route>
         {/* React Skills Pages */}
-        
+        <Route path="/API" element={<API />}></Route>
+        <Route path="/Animation" element={<Animation />}></Route>
+        <Route path="/Client" element={<Client />}></Route>
+        <Route path="/Database" element={<Database />}></Route>
+        <Route path="/DateTime" element={<DateTime />}></Route>
+        <Route path="/Files" element={<Files />}></Route>
+        <Route path="/Server" element={<Server />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>
