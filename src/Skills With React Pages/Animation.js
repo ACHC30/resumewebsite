@@ -5,6 +5,7 @@ function Animation() {
   return (
     <div className="App">
       <Header />
+      <h1>Animation Page</h1>
       <Footer />
     </div>
   );

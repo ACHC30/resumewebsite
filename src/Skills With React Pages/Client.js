@@ -5,6 +5,7 @@ function client() {
   return (
     <div className="App">
       <Header />
+      <h1>client Page</h1>
       <Footer />
     </div>
   );

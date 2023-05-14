@@ -5,6 +5,7 @@ function files() {
   return (
     <div className="App">
       <Header />
+      <h1>Files Page</h1>
       <Footer />
     </div>
   );

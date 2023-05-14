@@ -5,6 +5,7 @@ function server() {
   return (
     <div className="App">
       <Header />
+      <h1>Server Page</h1>
       <Footer />
     </div>
   );

@@ -5,6 +5,7 @@ function API() {
   return (
     <div className="App">
       <Header />
+      <h1>API Page</h1>
       <Footer />
     </div>
   );

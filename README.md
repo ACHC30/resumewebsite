@@ -1,7 +1,8 @@
 # To do List:
 
 -projects links to github (other projects?)
--Design ReactSkillsMenu
+-Design ReactSkillsMenu better
+-Design for projects
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -Better Original Design for navbar
 
