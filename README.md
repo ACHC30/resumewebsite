@@ -1,7 +1,8 @@
 # To do List:
 
+-fix the red and warning errors
 -Design projects
--Design ReactSkillsMenu better
+-Description of react skills menus
 -Design for projects
 -Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
 -Better Original Design for navbar
