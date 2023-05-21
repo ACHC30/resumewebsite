@@ -1,6 +1,8 @@
 import Header from "../Public Page/Header";
 import myFace from "../Images/MyFace.jpg";
 import Footer from "../Public Page/Footer";
+//import Element from "react-scroll";
+
 function Contact() {
   return (
     <div className="App">

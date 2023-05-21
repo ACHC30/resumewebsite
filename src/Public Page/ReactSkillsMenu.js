@@ -1,20 +1,8 @@
-import { Link } from "react-router-dom";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 import LinkCellRenderer from "../Components/LinkCellRenderer";
 
-// this layout page would be used in multiple pages to serve as their header fro the react skills.
-{
-  /* 
-<Link to="/API">API</Link>
-<Link to="/Server">Server side</Link>
-<Link to="/Client">Client Side</Link>
-<Link to="/Database">Database</Link>
-<Link to="/Files">Files</Link>
-<Link to="/DateTime">Date time & calendar</Link>
-<Link to="/Animation">Animations</Link> */
-}
 function ReactSkills() {
   const defaultColDef = {
     flex: 2,

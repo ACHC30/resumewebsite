@@ -1,6 +1,5 @@
 # To do List:
 
--fix the red and warning errors
 -Design projects
 -Description of react skills menus
 -Design for projects
