@@ -1,6 +1,7 @@
 import Header from "../Public Page/Header";
 import myFace from "../Images/MyFace.jpg";
 import Footer from "../Public Page/Footer";
+
 function Contact() {
   return (
     <div className="App">

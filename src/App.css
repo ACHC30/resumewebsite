@@ -33,7 +33,7 @@
   vertical-align: middle;
 }
 
-/* project css */
+/* header css */
 .header{
   text-align: center; 
   color: #f2f2f2;
@@ -41,7 +41,7 @@
 
 /* footer css */
 .footer-basic {
-  padding:40px 0;
+  padding-top: 10%;
 }
 
 .footer-basic ul {

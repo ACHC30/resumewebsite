@@ -3,7 +3,7 @@ import { Nav, NavLink, NavMenu } from "../Components/Navbar";
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {
   return (
-    <div className="App">
+    <div className="header">
       <header>
         <h1>Resume Website</h1>
         <h2>Christopher Chandra</h2>

@@ -20,14 +20,17 @@ function Projects() {
         </a>
         <br></br>
         <a href="https://github.com/ACHC30/CAB302_144">CAB302 project</a>
-        <h3>Projetcs That i Contributed</h3>
+        <h3>Projects That i Contributed</h3>
         <a href="https://github.com/mohitbijanya/IFN649">IFN649 project</a>
+        <br></br>
         <a href="https://github.com/spencerwhc/IFN711_blockchain_project">
           IFN711 project
         </a>
+        <br></br>
         <a href="https://github.com/AbizardShafwan/CAB302_144">
           CAB302_144 project
         </a>
+        <br></br>
       </div>
       <Footer />
     </div>
