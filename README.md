@@ -1,8 +1,6 @@
 # To do List:
 
--Design projects
 -Description of react skills menus
--Better Original Design for navbar
 
 -Host the website on AWS (find out how)
 -warnings and red errors
