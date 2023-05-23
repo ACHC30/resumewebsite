@@ -1,13 +1,13 @@
-import { Nav, NavLink, NavMenu } from "../Components/Navbar";
+import { Nav, NavLink, NavMenu, NavBtn } from "../Components/Navbar";
 
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {
   return (
     <div className="header">
-      <header>
-        <h1>Resume Website</h1>
-      </header>
       <Nav>
+        <NavBtn>
+          <h1>Resume Website</h1>
+        </NavBtn>
         <NavMenu>
           <NavLink to="/">Home</NavLink>
         </NavMenu>
