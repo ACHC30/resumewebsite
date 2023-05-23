@@ -1,9 +1,6 @@
 # To do List:
 
--Design projects
 -Description of react skills menus
--Integrate navbar nav bar more (Bars?) ( https://www.geeksforgeeks.org/create-a-responsive-navbar-using-reactjs/)
--Better Original Design for navbar
 
 -Host the website on AWS (find out how)
 -warnings and red errors

@@ -6,12 +6,15 @@ function Summary() {
     <div className="App">
       <Header />
       <p style={{ textAlign: "center" }}>
-        A recent graduate from Queensland University of Technology (QUT), I am
-        actively looking for a job in order to gain some work experience for my
-        Skill assessment. I'm a team player, loyal to a fault, very adaptable, I
-        can learn quickly as I work through my tasks. Most importantly, I won't
-        leave things half way when working with anyone. I tend to finish what I
-        started and am open to challenges that come my way.
+        Master’s graduate Computer Science with skills in Web and Mobile
+        Application Development, Object Oriented Programming, and scrum IT
+        Project Management. As a graduate of Queensland University of
+        Technology, has worked across various projects, utilizing Agile
+        methodology of Project Management. Has good knowledge in React
+        JavaScript and C# and is passionate to collaborate with a team to
+        increase my overall skills. Most importantly, I won't leave things
+        halfway when working with anyone. I tend to finish what I started. I
+        hope my skills and passion would help your business in any way possible.
       </p>
       <div className="App-logo-wrapper">
         <img src={myFace} className="App-logo" alt="logo" />

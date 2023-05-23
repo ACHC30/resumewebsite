@@ -7,9 +7,11 @@ function LinkCellRenderer(props) {
   var result;
   if (address !== undefined) {
     result = (
-      <p>
-        <Link to={address}>{name}</Link>
-      </p>
+      <Link to={address}>
+        <div className="linkCellBox">
+          <p>{name}</p>
+        </div>
+      </Link>
     );
   } else {
     result = "Nothing";
