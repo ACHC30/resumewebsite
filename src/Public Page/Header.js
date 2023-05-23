@@ -6,8 +6,6 @@ function Header() {
     <div className="header">
       <header>
         <h1>Resume Website</h1>
-        <h2>Christopher Chandra</h2>
-        <h3>Choose The NavLink for different kind of details</h3>
       </header>
       <Nav>
         <NavMenu>

@@ -5,8 +5,7 @@ function Projects() {
   return (
     <div className="App">
       <Header />
-      <h2>Title</h2>
-      <p>this page will provide links to all my previous projects</p>
+      <h2>This page will provide links to all my previous projects</h2>
       <div className="projectlinks">
         <h3>Projetcs Owned by me</h3>
         <a href="https://github.com/ACHC30/assessment2">SDN project</a>
