@@ -21,13 +21,25 @@ function ReactSkills() {
     { headername: "Desc", field: "desc" },
   ];
   const rows = [
-    { links: ["/API", "API"] },
-    { links: ["/Server", "Server Side"] },
-    { links: ["/Client", "Cllient Side"] },
-    { links: ["/Database", "Database"] },
-    { links: ["/Files", "Files"] },
-    { links: ["/DateTime", "Date Time and Calendar"] },
-    { links: ["/Animation", "Animation"] },
+    {
+      links: ["/API", "API"],
+      desc: "In this page, an API will be used to supply a data to an ag grid table",
+    },
+    { links: ["/Server", "Server Side"], desc: "no desc" },
+    { links: ["/Client", "Cllient Side"], desc: "no desc" },
+    { links: ["/Database", "Database"], desc: "no desc" },
+    {
+      links: ["/Files", "Files"],
+      desc: "This page will show you how to download a pdf to your local files",
+    },
+    {
+      links: ["/DateTime", "Date Time and Calendar"],
+      desc: "In this page, a calendar and clock will be used to display date and time",
+    },
+    {
+      links: ["/Animation", "Animation"],
+      desc: "This page willl show the use of animation",
+    },
   ];
   return (
     <div>

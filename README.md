@@ -1,7 +1,5 @@
 # To do List:
 
--Description of react skills menus
-
 -Host the website on AWS (find out how)
 -warnings and red errors
 -unittest
