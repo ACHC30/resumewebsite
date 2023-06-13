@@ -1,7 +1,6 @@
 # To do List:
 
 -Host the website on AWS (find out how)
--warnings and red errors
 -unittest
 -documentation
 -use giphy api for personal web skill
