@@ -29,9 +29,9 @@ function Header() {
         <NavMenu>
           <NavLink to="/Projects">Projects</NavLink>
         </NavMenu>
-        <NavMenu>
+        {/* <NavMenu>
           <NavLink to="/ReactSkills">Skills With React</NavLink>
-        </NavMenu>
+        </NavMenu> */}
       </Nav>
     </div>
   );
