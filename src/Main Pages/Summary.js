@@ -5,20 +5,27 @@ function Summary() {
   return (
     <div className="App">
       <Header />
-      <p style={{ textAlign: "center" }}>
-        Master’s graduate Computer Science with skills in Web and Mobile
-        Application Development, Object Oriented Programming, and scrum IT
-        Project Management. As a graduate of Queensland University of
-        Technology, has worked across various projects, utilizing Agile
-        methodology of Project Management. Has good knowledge in React
-        JavaScript and C# and is passionate to collaborate with a team to
-        increase my overall skills. Most importantly, I won't leave things
-        halfway when working with anyone. I tend to finish what I started. I
-        hope my skills and passion would help your business in any way possible.
-      </p>
-      <div className="App-logo-wrapper">
-        <img src={myFace} className="App-logo" alt="logo" />
+
+      <div className="skill-parent">
+        <div className="skill-child">
+          <img src={myFace} className="App-logo-circular" alt="logo" />
+        </div>
+
+        <div style={{ width: "5%", display: "inline-block" }}></div>
+
+        <div className="skill-child">
+          <h1 style={{ textAlign: "Justify" }}>A bit about me</h1>
+          <p style={{ textAlign: "Justify", width: "350px", height: "160px" }}>
+            I am a software developer for both the back and front end of
+            development. Ever since I was a child I was always quiet, and I was
+            also fascinated by technology. Building high-quality software always
+            makes people's lives easier, which is why I love building software.
+            As a follow-up to my father's legacy, I aim to work in the IT
+            industry to do what I love and help others in the process as well.
+          </p>
+        </div>
       </div>
+
       <Footer />
     </div>
   );

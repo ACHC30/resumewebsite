@@ -1,8 +1,13 @@
 import "./App.css";
+import React, { useEffect } from "react";
 import Header from "./Public Page/Header";
 import Footer from "./Public Page/Footer";
 
 function App() {
+  useEffect(() => {
+    // Code to be executed when the component mounts
+    console.log("This Website in not mobile friendly");
+  }, []); // Empty dependency array means it only runs once on mount
   return (
     <div className="App">
       <Header />

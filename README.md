@@ -1,7 +1,10 @@
 # To do List:
 
+-update to wix style a bit
+-update the information
+-notification for not mobile friendly
+-download cv pdf button and fucntion
 -Host the website on AWS (find out how)
--warnings and red errors
 -unittest
 -documentation
 -use giphy api for personal web skill
