@@ -2,15 +2,20 @@ import "./App.css";
 import React, { useEffect } from "react";
 import Header from "./Public Page/Header";
 import Footer from "./Public Page/Footer";
+import {
+  NotificationContainer,
+  NotificationManager,
+} from "react-notifications";
 
 function App() {
   useEffect(() => {
     // Code to be executed when the component mounts
-    console.log("This Website in not mobile friendly");
+    NotificationManager.info("This Website Is Not Mobile Friendly!");
   }, []); // Empty dependency array means it only runs once on mount
   return (
     <div className="App">
       <Header />
+      <NotificationContainer />
       <h1 style={{ marginTop: "10%", margin: "5%" }}>
         This is a personal project website that i have created in order to keep
         my coding skills sharp. besides that i would also make this website for
