@@ -1,23 +1,28 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Popup from "./Components/Popup";
 import Header from "./Public Page/Header";
 import Footer from "./Public Page/Footer";
 
+let hasUseEffectRun = false;
+
 function App() {
   const [isPopupOpen, setPopupOpen] = useState(false);
-
-  const handleOpenPopup = () => {
-    setPopupOpen(true);
-  };
 
   const handleClosePopup = () => {
     setPopupOpen(false);
   };
 
+  useEffect(() => {
+    if (!hasUseEffectRun) {
+      // This code will run only once when the component mounts
+      hasUseEffectRun = true;
+      setPopupOpen(true);
+    }
+  }, []);
+
   return (
     <div className="App">
-      <button onClick={handleOpenPopup}>Open Popup</button>
       <Popup isOpen={isPopupOpen} onClose={handleClosePopup} />
 
       <Header />
