@@ -1,10 +1,9 @@
 # To do List:
 
--pop up for not mobile friendly
 -navbar.css
+-download cv pdf button and fucntion
 -update to wix style a bit
 -update the information
--download cv pdf button and fucntion
 -Host the website on AWS (find out how)
 -unittest
 -documentation
