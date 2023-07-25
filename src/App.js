@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Popup from "./Components/Popup";
 import Header from "./Public Page/Header";
 import Footer from "./Public Page/Footer";

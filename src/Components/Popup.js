@@ -12,6 +12,9 @@ const Popup = ({ isOpen, onClose }) => {
         </span>
         <h2 style={{ color: "black" }}>Sorry!</h2>
         <p style={{ color: "black" }}>This website is not mobile friendly.</p>
+        <button className="button-okay" onClick={onClose}>
+          Okay
+        </button>
       </div>
     </div>
   );
