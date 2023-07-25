@@ -1,9 +1,9 @@
 # To do List:
 
--navbar.css
--download cv pdf button and fucntion
+-download cv pdf button and function
 -update to wix style a bit
 -update the information
+-block facebook
 -Host the website on AWS (find out how)
 -unittest
 -documentation

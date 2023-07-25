@@ -1,0 +1,9 @@
+/* project css */
+.projectlinks .items {
+    border: solid black;
+    border-radius: 5%;
+    background-color: blueviolet;
+    margin: 2%;
+    margin-bottom: 0.05%;
+    padding: 1%;
+}

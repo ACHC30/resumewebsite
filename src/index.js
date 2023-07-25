@@ -1,18 +1,18 @@
+import reportWebVitals from "./reportWebVitals";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./CSS/index.css";
 
-import App from "./App";
 //main pages
+import Home from "./Main Pages/Home";
 import Contact from "./Main Pages/Contact";
 import Education from "./Main Pages/Education";
 import Experience from "./Main Pages/Experience";
 import Skills from "./Main Pages/Skills";
 import Summary from "./Main Pages/Summary";
 import Projects from "./Main Pages/Projects";
+
 // import ReactSkills from "./Main Pages/SkillsWithReact";
 //skills with react pages
 // import API from "./Skills With React Pages/API";
@@ -28,7 +28,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/Education" element={<Education />}></Route>
         <Route path="/Experience" element={<Experience />}></Route>
