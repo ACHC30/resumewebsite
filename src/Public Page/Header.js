@@ -1,4 +1,5 @@
-import { Nav, NavLink, NavMenu, NavLogo } from "../Components/Navbar";
+import { Nav, NavLink, NavMenu, NavLogo } from "../CSS/Navbar";
+import "../CSS/Header.css";
 
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {

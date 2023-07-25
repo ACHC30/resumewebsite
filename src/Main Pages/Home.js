@@ -1,12 +1,12 @@
-import "./App.css";
+import "../CSS/Home.css";
 import React, { useState, useEffect } from "react";
-import Popup from "./Components/Popup";
-import Header from "./Public Page/Header";
-import Footer from "./Public Page/Footer";
+import Popup from "../Components/Popup";
+import Header from "../Public Page/Header";
+import Footer from "../Public Page/Footer";
 
 let hasUseEffectRun = false;
 
-function App() {
+function Home() {
   const [isPopupOpen, setPopupOpen] = useState(false);
 
   const handleClosePopup = () => {
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

@@ -1,5 +1,6 @@
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
+import "../CSS/Projects.css";
 
 function Projects() {
   return (
