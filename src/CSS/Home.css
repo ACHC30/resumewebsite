@@ -22,24 +22,6 @@
   height: 40vmin;
 }
 
-.button-download {
-  width: 50%;
-  background-color: #00008b;
-  border: none;
-  border-radius: 5%;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition-duration: 0.5s;
-}
-.button-download:hover {
-  background-color: #02ac46;
-  color: white;
-}
-
 /* skills css */
 .skill-parent {
   margin: 1rem;
