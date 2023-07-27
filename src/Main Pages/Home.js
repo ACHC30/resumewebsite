@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Popup from "../Components/Popup";
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
+import DownloadPDF from "../Components/DownloadPDF";
 
 let hasUseEffectRun = false;
 
@@ -34,9 +35,7 @@ function Home() {
         not have any features to get feedback for my website you can leave
         feedbacks at my email in the contact details. Thank you for visiting!
       </h1>
-      <button className="button-download" onClick={isPopupOpen}>
-        Download CV
-      </button>
+      <DownloadPDF />
       <Footer />
     </div>
   );
