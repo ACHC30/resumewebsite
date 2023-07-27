@@ -9,7 +9,7 @@ function Projects() {
       <h2>This page will provide links to all my previous projects</h2>
       <div className="projectlinks">
         {/* Owned */}
-        <h3>Projetcs Owned by me</h3>
+        <h3>Projects Owned by me</h3>
         <a href="https://github.com/ACHC30/assessment2">
           <div className="items">
             <p>SDN project</p>

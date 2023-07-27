@@ -28,12 +28,14 @@ function Home() {
 
       <Header />
       <h1 style={{ marginTop: "10%", margin: "5%" }}>
-        This is a personal project website that i have created in order to keep
-        my coding skills sharp. besides that i would also make this website for
-        my recriuters to see my coding skills. Im planning on adding more stuffs
-        to the website and welcome any feedback from anyone. For now since i do
-        not have any features to get feedback for my website you can leave
-        feedbacks at my email in the contact details. Thank you for visiting!
+        This website serves as a personal project I have developed with the
+        primary objective of honing and showcasing my coding skills.
+        Additionally, it also serves as a platform for potential recruiters to
+        assess my coding abilities. Going forward, I have plans to expand and
+        enhance its content further. I wholeheartedly welcome constructive
+        feedback from anyone, which can be directed to my email address provided
+        in the contact details section. Your valuable input is greatly
+        appreciated. Thank you for visiting!
       </h1>
       <DownloadPDF />
       <Footer />
