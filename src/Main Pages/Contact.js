@@ -25,8 +25,6 @@ function Contact() {
 
             <h2>Phone Number</h2>
             <p>0432 644 477 </p>
-            <p>OR</p>
-            <p>(+62) 432 644 477</p>
 
             <h2>Linkedin</h2>
             <a href="https://www.linkedin.com/in/christopher-chandra-9601bb1b9/">
@@ -37,7 +35,7 @@ function Contact() {
             <a href="https://github.com/ACHC30">https://github.com</a>
 
             <h2>Email</h2>
-            <p>chandrachristopher43@gmail.com</p>
+            <p>christopher_chandra@outlook.com</p>
           </div>
         </div>
       </div>
