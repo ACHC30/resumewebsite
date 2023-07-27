@@ -6,7 +6,7 @@ const DownloadPDF = () => {
   const download = () => {
     const link = document.createElement("a");
     link.href =
-      "https://github.com/ACHC30/resumewebsite-React.js-.git/raw/master/Files/Christopher Chandra_IT_PY_CV.pdf"; // Replace with the raw URL of your PDF file
+      "https://github.com/ACHC30/resumewebsite-React.js-/raw/master/Files/Christopher Chandra_IT_PY_CV.pdf"; // Replace with the raw URL of your PDF file
     link.download = "Christopher Chandra_IT_CV.pdf";
     document.body.appendChild(link);
     link.click();
@@ -16,7 +16,9 @@ const DownloadPDF = () => {
   return (
     <div>
       <h1>Download PDF Example</h1>
-      <button onClick={download}>Download PDF</button>
+      <button className="button-download" onClick={download}>
+        Download PDF
+      </button>
     </div>
   );
 };
