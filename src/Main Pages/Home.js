@@ -34,6 +34,9 @@ function Home() {
         not have any features to get feedback for my website you can leave
         feedbacks at my email in the contact details. Thank you for visiting!
       </h1>
+      <button className="button-download" onClick={isPopupOpen}>
+        Download CV
+      </button>
       <Footer />
     </div>
   );
