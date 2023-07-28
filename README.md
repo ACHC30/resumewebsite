@@ -1,11 +1,5 @@
 # To do List:
 
--update to wix style a bit
-
--update the experience info
-
--block facebook
-
 -Host the website on AWS (find out how)
 
 -unittest

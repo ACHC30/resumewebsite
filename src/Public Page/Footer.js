@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faFacebook,
+  faWix,
 } from "@fortawesome/free-brands-svg-icons";
 import "../CSS/Footer.css";
 
@@ -16,8 +16,8 @@ function Footer() {
         <a href="https://github.com/ACHC30">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100007759308572">
-          <FontAwesomeIcon icon={faFacebook} />
+        <a href="https://chandrachristopher4.wixsite.com/my-site">
+          <FontAwesomeIcon icon={faWix} />
         </a>
       </div>
       <p className="copyright">Christopher Chandra © 2023</p>
