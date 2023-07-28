@@ -5,7 +5,6 @@ import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 import ListCellRenderer from "../Components/ListCellRenderer";
 
-
 function Experience() {
   const defaultColDef = {
     flex: 2,
@@ -27,79 +26,71 @@ function Experience() {
   ];
   const rows = [
     {
-      company: "QUT",
-      title: "QUT Capstone Project Developer",
-      period: "01/2022 to 06/2022",
+      company: "Tobacco SG",
+      title: "Sales Attendant",
+      period: "Sep 2022 to now",
       activity: [
-        "Created a Blockchain-based Student Assessment Ledger Web App. In this application, student can generate a report that can show all the skills they have learn from the courses and all the data we use are authentic assignment that will be stored in the blockchain to ensure security.",
-        "Handles most of the front-end development and coding part in the SDN (Software-defined Network) back-end",
-        "Co-managing the quality control of the both the front-end and SDN codes before deploying.",
-      ],
-    },
-    {
-      company: "QUT",
-      title: "FOUNDRY QUT Capstone Project Developer",
-      period: " 01/2019 to 01/2020",
-      activity: [
-        "Created a dashboard that can deliver an interesting gamification process for the participants that wants to hold an entrepreneurship program and allows the staff to track and analyze the experiences of the participants",
-        "Part of the development team that made the dashboard",
-        "Co-managing the quality control of the dashboard before being deployed",
-        "Co-designing the data design for the dashboard and helped in setting up the database",
-        "Fixed bugs during the development of the dashboard.",
-      ],
-    },
-    {
-      company: "ILPC",
-      title: "Event Organizer Staff",
-      period: "01/2018 to 01/2019",
-      activity: [
-        "Part of the consumption and health staff in the “Informatics Logical Programming Competition 2019”",
-        "Co-organized consumption for both staff and participant of the ILPC",
-        "Part of the logistic staff for the ILPC when there is not enough people in logistic.",
-      ],
-    },
-    {
-      company: "UBAYA (University Of Surabaya)",
-      title: "Website Developer",
-      period: "01/2018 to 01/2019",
-      activity: [
-        "Created a website that is used to schedule final exam for the students in UBAYA",
-        "Part of the development team that made the website",
-        "Co-managing the quality control of the website before being deployed",
-        "Fixed bugs during the development of the website.",
+        "Demonstrated efficiency in financial transaction using POS with 0% error",
+        "Exceed customer satisfaction with effective communication",
+        "Created a proper documentation by writing reports in the given format with 100% consistency.",
+        "Demonstrated effective project management skills by using company documentation templates. ",
       ],
     },
     {
       company: "MITRA AGUNG",
-      title: "Software Developer",
-      period: " 01/2017 to now",
+      title: "IT Freelancer",
+      period: " Jan 2017 to now",
       activity: [
-        "Created a system that will be used to manage the inventory of a small store",
-        "Sole Developer of the software",
+        "Established proper data design and structure by using excel files",
+        "Composed a small database using google drive for cost effective data storing",
         "Designing the data design and structure for the software",
-        "Set up the small database for the software.",
+        "Prototyped a solution for the problem using a third-party software",
+      ],
+    },
+    {
+      company: "QUT",
+      title: "Blockchain-Based Assessment Ledger Website",
+      period: "Jan 2022 to Jun 2022",
+      activity: [
+        "In this website, student can generate a report that can show all the skills they have learn from the courses and all the data will be stored in the blockchain to ensure security.",
+        "Demonstrated skills in JavaScript front-end development",
+        "Achieved success in testing SDN using Linux virtual OS",
+        "Used Trello for quality control",
+      ],
+    },
+    {
+      company: "QUT",
+      title: "Gamified Entrepreneur Dashboard",
+      period: "Jan 2019 to Jan 2020",
+      activity: [
+        "Created a dashboard that can deliver an interesting gamification process for the participants that wants to hold an entrepreneurship program and allows the staff to track and analyze the experiences of the participants",
+        "Designed front end of the website with HTML and CSS",
+        "Implemented back end of the website with Phyton",
+        "Organized workflow using SCRUM method",
+        "Documented the coding Done on the project",
+        "Designed database using SQL",
+        "Fixed bugs during the development of the dashboard.",
+      ],
+    },
+    {
+      company: "UBAYA (University Of Surabaya)",
+      title: "Final Exams Scheduling Website",
+      period: "Jan 2018 to Jan 2019",
+      activity: [
+        "Created a website that is used to schedule final exam for the students in UBAYA",
+        "Implemented PHP for backend development ",
+        "Designed the front-end using HTML",
       ],
     },
     {
       company: "YESTERDAY’S THRIFT SHOP",
       title: "Volunteer",
-      period: "09/2022 to now",
+      period: "Sep 2022 to Mar 2023",
       activity: [
         "Handles customer service",
         "Handles Stock Rotation",
         "Handles Stock pricing",
         "Handles Merchandising",
-      ],
-    },
-    {
-      company: "TSG",
-      title: "Clerk",
-      period: "09/2022 to now",
-      activity: [
-        "Handles customer service",
-        "Handles stocking",
-        "Handles cleaning",
-        "Handles retail",
       ],
     },
   ];
