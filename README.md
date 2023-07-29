@@ -1,12 +1,17 @@
 # To do List:
 
--make mobile version?
+-make responsive design.\
+1.navbar (new navbar, one with menu).\
+2.experience (With new pages?, Wix?, boxes?).\
+3.education (wix?, boxes?).\
+4.skills.\
+5.some adjustments.\
 
--unittest
+-animations.\
 
--documentation
+-unittest.\
 
--use giphy api for personal web skill
+-use giphy api for personal web skill.\
 
 # Resume Website (React.js)
 
@@ -27,57 +32,38 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm check`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Will check all the important node modules
 
-### `npm run build`
+use `npm-check -u` to have a better UI for updating the modules
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Short Documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the project directory, there is 6 important folder:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Components`
 
-### `npm run eject`
+contains all the compnents that could be used in multiple pages
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `CSS`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+containes all the CSS files
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Images`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+contains all the image assets
 
-## Learn More
+### `Main Pages`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+contains all of the pages that will be used from the navbar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Public Pages`
 
-### Code Splitting
+contains all of the components that would be used in all of the pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `Skills With react Pages`
 
-### Analyzing the Bundle Size
+this folder is for future features and is not used in this version of the website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### `index.js is where the website will me exceuted and where all the browser route is made`
