@@ -1,6 +1,6 @@
 # To do List:
 
--Host the website on AWS (find out how)
+-make mobile version?
 
 -unittest
 
