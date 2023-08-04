@@ -1,11 +1,10 @@
 # To do List:
 
 -make responsive design.\
-1.navbar (new navbar, one with menu).\
-2.experience (With new pages?, Wix?, boxes?).\
-3.education (wix?, boxes?).\
-4.skills.\
-5.some adjustments.\
+1.experience (With new pages?, Wix?, boxes?).\
+2.education (wix?, boxes?).\
+3.skills.\
+4.some adjustments.\
 
 -animations.\
 
