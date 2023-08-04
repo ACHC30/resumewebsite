@@ -1,19 +1,20 @@
 import Header from "../Public Page/Header";
 import myFace from "../Images/MyFace.jpg";
 import Footer from "../Public Page/Footer";
+import "../CSS/ParentChild.css";
+import "../CSS/Contact.css";
 
 function Contact() {
   return (
-    <div className="App">
+    <div className="Contact">
       <Header />
-      <div className="skill-parent">
-        <div className="skill-child">
-          <h1>Contact Me</h1>
+      <div className="parent">
+        <div className="child">
+          <h1 style={{ textAlign: "center" }}>Contact Me</h1>
           <img src={myFace} className="App-logo-circular" alt="logo" />
         </div>
-        <div style={{ width: "10%", display: "inline-block" }}></div>
         <div
-          className="skill-child"
+          className="child"
           style={{
             background: "content-box radial-gradient(crimson, skyblue)",
             borderRadius: "30px",
@@ -28,11 +29,13 @@ function Contact() {
 
             <h2>Linkedin</h2>
             <a href="https://www.linkedin.com/in/christopher-chandra-9601bb1b9/">
-              linkedin.com/in/christopher-chandra
+              <p>linkedin.com/in/christopher-chandra</p>
             </a>
 
             <h2>Github Profile</h2>
-            <a href="https://github.com/ACHC30">https://github.com</a>
+            <a href="https://github.com/ACHC30">
+              <p>https://github.com</p>
+            </a>
 
             <h2>Email</h2>
             <p>christopher_chandra@outlook.com</p>

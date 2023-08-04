@@ -1,21 +1,22 @@
 import myFace from "../Images/MyFace.jpg";
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
+import "../CSS/ParentChild.css";
+import "../CSS/Summary.css";
+
 function Summary() {
   return (
-    <div className="App">
+    <div className="Summary">
       <Header />
 
-      <div className="skill-parent">
-        <div className="skill-child">
+      <div className="parent">
+        <div className="child">
           <img src={myFace} className="App-logo-circular" alt="logo" />
         </div>
 
-        <div style={{ width: "5%", display: "inline-block" }}></div>
-
-        <div className="skill-child">
-          <h1 style={{ textAlign: "Justify" }}>A bit about me</h1>
-          <p style={{ textAlign: "Justify", width: "350px", height: "160px" }}>
+        <div className="child">
+          <h1>A bit about me</h1>
+          <p>
             I am a software developer for both the back and front end of
             development. Ever since I was a child I was always quiet, and I was
             also fascinated by technology. Building high-quality software always

@@ -1,0 +1,7 @@
+/* Apply styles for smaller screens */
+@media (max-width: 767px) {
+
+    .child h1,ul,li{
+        text-align: justify;
+    }
+  }

@@ -3,8 +3,6 @@
 -make responsive design.\
 1.experience (With new pages?, Wix?, boxes?).\
 2.education (wix?, boxes?).\
-3.skills.\
-4.some adjustments.\
 
 -animations.\
 
