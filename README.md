@@ -66,4 +66,4 @@ contains all of the components that would be used in all of the pages
 
 this folder is for future features and is not used in this version of the website
 
-#### `index.js is where the website will me exceuted and where all the browser route is made`
+#### `index.js is where the website will me exceuted and where all the browser route is made!!!`

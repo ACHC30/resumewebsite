@@ -1,39 +1,53 @@
-import { Nav, NavLink, NavMenu, NavLogo } from "../CSS/Navbar";
+import { NavLink as Link } from "react-router-dom";
 import "../CSS/Header.css";
 
 // this layout page would be used in multiple pages to serve as their header.
 function Header() {
   return (
     <div className="header">
-      <Nav>
-        <NavLogo to="/">
+      <div className="nav">
+        <Link className="navLogo" to="/">
           <h1>Resume Website</h1>
-        </NavLogo>
-        <NavMenu>
-          <NavLink to="/">Home</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Contact">Contact Details</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Summary">Summary</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Skills">Skills</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Experience">Experience</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Education">Education and Training</NavLink>
-        </NavMenu>
-        <NavMenu>
-          <NavLink to="/Projects">Projects</NavLink>
-        </NavMenu>
+        </Link>
+        <div className="navMenu">
+          <Link className="link" to="/">
+            Home
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Contact">
+            Contact Details
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Summary">
+            Summary
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Skills">
+            Skills
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Experience">
+            Experience
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Education">
+            Education and Training
+          </Link>
+        </div>
+        <div className="navMenu">
+          <Link className="link" to="/Projects">
+            Projects
+          </Link>
+        </div>
         {/* <NavMenu>
-          <NavLink to="/ReactSkills">Skills With React</NavLink>
+          <Link to="/ReactSkills">Skills With React</Link>
         </NavMenu> */}
-      </Nav>
+      </div>
     </div>
   );
 }
