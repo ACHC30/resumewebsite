@@ -1,11 +1,13 @@
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
+import "../CSS/ParentChild.css";
+
 function Skills() {
   return (
     <div className="App">
       <Header />
-      <div className="skill-parent">
-        <div className="skill-child">
+      <div className="parent">
+        <div className="child">
           <h1>Coding Skills</h1>
           <ul>
             <li>C#</li>
@@ -20,8 +22,7 @@ function Skills() {
             <li>SQL</li>
           </ul>
         </div>
-        <div style={{ width: "10%", display: "inline-block" }}></div>
-        <div className="skill-child" style={{ width: "500px" }}>
+        <div className="child" style={{ width: "500px" }}>
           <ul>
             <h1>Technical Skills</h1>
             <li>Experience with scrum project management method</li>

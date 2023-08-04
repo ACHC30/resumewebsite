@@ -1,9 +1,6 @@
 /* Home (with app names) css */
 .App {
   text-align: center;
-}
-
-.App h1,h2,h3,h4,p,ul,li{
   color: #f2f2f2;
 }
 
@@ -23,16 +20,5 @@
 }
 .App-logo {
   height: 40vmin;
-}
-
-/* skills css */
-.skill-parent {
-  margin: 1rem;
-  text-align: center;
-}
-
-.skill-child {
-  display: inline-block;
-  vertical-align: middle;
 }
 

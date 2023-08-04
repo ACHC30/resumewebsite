@@ -1,0 +1,18 @@
+.Summary{ 
+  color: #f2f2f2;
+}
+/* Apply styles for larger screens */
+@media (min-width: 768px) {
+    .child h1,p{
+      text-align: justify;
+      width: 450px;
+  }
+}
+
+/* Apply styles for smaller screens */
+@media (max-width: 767px) {
+
+  .child h1,p{
+      text-align: center;
+  }
+}
