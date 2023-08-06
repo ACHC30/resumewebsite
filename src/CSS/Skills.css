@@ -1,7 +1,17 @@
+/* Apply styles for larger screens */
+@media (min-width: 768px) {
+    .child{
+        width: 500px;
+    }
+}
+
 /* Apply styles for smaller screens */
 @media (max-width: 767px) {
+    .child{
+        width: auto;
+    }
 
     .child h1,ul,li{
         text-align: justify;
     }
-  }
+}
