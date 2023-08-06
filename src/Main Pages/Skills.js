@@ -22,7 +22,7 @@ function Skills() {
             <li>SQL</li>
           </ul>
         </div>
-        <div className="child" style={{ width: "500px" }}>
+        <div className="child">
           <ul>
             <h1>Technical Skills</h1>
             <li>Experience with scrum project management method</li>

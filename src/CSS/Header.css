@@ -11,6 +11,7 @@
   justify-content: space-between;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
+  position: relative; /* Add relative positioning to .nav */
 }
 
 .link {
@@ -52,10 +53,11 @@
   font-size: 1.5rem;
 }
 
+
 /* Media query for smaller screens, e.g., mobile */
 @media screen and (max-width: 768px) {
   .nav {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: row; /* Stack items vertically */
     height: auto; /* Auto adjust height based on content */
     padding: 1rem; /* Add more padding for better spacing */
   }
@@ -67,15 +69,24 @@
 
   .navLogo {
     justify-content: center; /* Center the logo on mobile */
+    margin-left: 1.2rem;
   }
 
   .hamburger {
     display: flex; /* Show the hamburger menu icon on mobile */
+    padding: 10px;
+    padding-top: 18px;
   }
 
   /* Show the menu items when the hamburger icon is active */
   .navMenu.active {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 100%; /* Position below the .nav */
+    left: 0; /* Align with the left edge of .nav */
+    background-color: #00008b; /* Match the background color of .nav */
+    width: 100%; /* Occupy the full width of .nav */
+    padding: 1rem; /* Add padding for better spacing */
   }
 }
