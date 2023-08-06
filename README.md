@@ -1,6 +1,7 @@
 # To do List:
 
 -make responsive design.\
+0.make summary home page
 1.experience (With new pages?, Wix?, boxes?).\
 2.education (wix?, boxes?).\
 

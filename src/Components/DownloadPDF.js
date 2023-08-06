@@ -15,7 +15,7 @@ const DownloadPDF = () => {
 
   return (
     <div>
-      <h1>Download PDF Example</h1>
+      <h1>Download Latest CV</h1>
       <button className="button-download" onClick={download}>
         Download PDF
       </button>
