@@ -1,8 +1,7 @@
 # To do List:
 
 -make responsive design.\
-1.education (wix?, boxes?).\
-2.work exp with a file not array.\
+1.work exp and education with a file not array.\
 
 -animations.\
 
@@ -10,7 +9,7 @@
 
 -use giphy api for personal web skill.\
 
--put py class in education after you are done.\
+-put py class in education after you are done.\w
 
 # Resume Website (React.js)
 

@@ -25,7 +25,7 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px;
-        width: calc(36% - 20px);
+        width: calc(50% - 20px);
         display: inline-block;
         vertical-align: top;
     }
@@ -46,6 +46,6 @@
     }
 
     .info-box ul{
-        text-align: left;
+        text-align: justify;
     }
 }

@@ -12,7 +12,7 @@ const InfoBoxList = ({ lists }) => {
     <div>
       <ul
         style={{
-          maxHeight: expanded ? "none" : "100px", // Adjust this as needed
+          maxHeight: expanded ? "none" : "110px", // Adjust this as needed
         }}
       >
         {lists.slice(0, expanded ? lists.length : 3).map((item, idx) => (
