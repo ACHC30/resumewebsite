@@ -2,7 +2,7 @@
 
 -make responsive design.\
 1.education (wix?, boxes?).\
-2.experience actvities text is not break.\
+2.work exp with a file not array.\
 
 -animations.\
 
@@ -40,6 +40,10 @@ use `npm-check -u` to have a better UI for updating the modules
 ## Short Documentation
 
 In the project directory, there is 6 important folder:
+
+### `Files`
+
+contains all the cv file to be downloaded
 
 ### `Components`
 

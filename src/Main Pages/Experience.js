@@ -85,8 +85,8 @@ function Experience() {
           title={experience.title}
           lists={experience.activity}
         >
-          <p>{experience.company}</p>
-          <p>{experience.period}</p>
+          <h4>{experience.company}</h4>
+          <h4>{experience.period}</h4>
         </InfoBox>
       ))}
       <Footer />
