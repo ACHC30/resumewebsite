@@ -31,9 +31,6 @@ function Header() {
           <Link className="link" to="/Contact">
             Contact Details
           </Link>
-          <Link className="link" to="/Summary">
-            Summary
-          </Link>
           <Link className="link" to="/Skills">
             Skills
           </Link>

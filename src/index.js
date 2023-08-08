@@ -10,7 +10,6 @@ import Contact from "./Main Pages/Contact";
 import Education from "./Main Pages/Education";
 import Experience from "./Main Pages/Experience";
 import Skills from "./Main Pages/Skills";
-import Summary from "./Main Pages/Summary";
 import Projects from "./Main Pages/Projects";
 
 // import ReactSkills from "./Main Pages/SkillsWithReact";
@@ -33,7 +32,6 @@ root.render(
         <Route path="/Education" element={<Education />}></Route>
         <Route path="/Experience" element={<Experience />}></Route>
         <Route path="/Skills" element={<Skills />}></Route>
-        <Route path="/Summary" element={<Summary />}></Route>
         <Route path="/Projects" element={<Projects />}></Route>
 
         {/* <Route path="/ReactSkills" element={<ReactSkills />}></Route> */}
