@@ -1,8 +1,7 @@
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
-import "ag-grid-community/styles//ag-grid.css";
-import "ag-grid-community/styles//ag-theme-alpine.css";
 import InfoBox from "../Components/InfoBox.js";
+import "../CSS/Experience.css";
 
 function Experience() {
   const workExp = [
@@ -76,7 +75,7 @@ function Experience() {
     },
   ];
   return (
-    <div className="App">
+    <div className="Experience">
       <Header />
       <h1>Work Experience</h1>
       {workExp.map((experience, index) => (
@@ -85,8 +84,8 @@ function Experience() {
           title={experience.title}
           lists={experience.activity}
         >
-          <h4>{experience.company}</h4>
-          <h4>{experience.period}</h4>
+          <h4>Company: {experience.company}</h4>
+          <h4>Period: {experience.period}</h4>
         </InfoBox>
       ))}
       <Footer />
