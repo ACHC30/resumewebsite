@@ -1,10 +1,11 @@
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
 import "../CSS/ParentChild.css";
+import "../CSS/Skills.css";
 
 function Skills() {
   return (
-    <div className="App">
+    <div className="skills">
       <Header />
       <div className="parent">
         <div className="child">
