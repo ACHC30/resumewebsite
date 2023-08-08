@@ -1,3 +1,23 @@
+.info-box h2 {
+    margin-top: 0;
+}
+
+.info-box ul {
+    margin: 3px;
+    padding-left: 20px;
+    max-height: 100px;
+    width: auto;
+    overflow: hidden;
+}
+
+.show-more-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+
 /* for larger screen */
 @media (min-width: 768px) {
     .info-box {
@@ -5,9 +25,13 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px;
-        width: calc(33.33% - 20px);
+        width: calc(36% - 20px);
         display: inline-block;
         vertical-align: top;
+    }
+
+    .info-box ul, h4{
+        text-align: justify;
     }
 }
 
@@ -20,26 +44,8 @@
         margin: 10px;
         width: auto;
     }
-}
 
-.info-box h2 {
-    margin-top: 0;
-}
-
-/* Style the list */
-.info-box ul {
-    margin: 5px 0;
-    padding-left: 20px;
-    max-height: 100px;
-    max-width: 450px;
-    overflow: hidden;
-    word-break: break-all;
-}
-
-.show-more-link {
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
-    display: block;
-    margin-top: 5px;
+    .info-box ul{
+        text-align: left;
+    }
 }
