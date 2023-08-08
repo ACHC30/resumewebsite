@@ -1,14 +1,16 @@
 # To do List:
 
 -make responsive design.\
-1.experience (With new pages?, Wix?, boxes?).\
-2.education (wix?, boxes?).\
+1.education (wix?, boxes?).\
+2.experience actvities text is not break.\
 
 -animations.\
 
 -unittest.\
 
 -use giphy api for personal web skill.\
+
+-put py class in education after you are done.\
 
 # Resume Website (React.js)
 
