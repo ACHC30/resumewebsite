@@ -1,30 +1,11 @@
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
-import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
-import ListCellRenderer from "../Components/ListCellRenderer";
+import InfoBox from "../Components/InfoBox.js";
 
 function Experience() {
-  const defaultColDef = {
-    flex: 2,
-    filter: true,
-    resizable: true,
-    wrapText: true,
-    autoHeight: true,
-  };
-  const columns = [
-    { headername: "Company", field: "company" },
-    { headername: "Title", field: "title" },
-    { headername: "Period", field: "period" },
-    {
-      headername: "Activity",
-      field: "activity",
-      cellRenderer: ListCellRenderer,
-      flex: 6,
-    },
-  ];
-  const rows = [
+  const workExp = [
     {
       company: "Tobacco SG",
       title: "Sales Attendant",
@@ -97,17 +78,17 @@ function Experience() {
   return (
     <div className="App">
       <Header />
-      <div
-        className="ag-theme-alpine"
-        style={{ height: "300px", width: "100%" }}
-      >
-        <AgGridReact
-          defaultColDef={defaultColDef}
-          columnDefs={columns}
-          rowData={rows}
-          pagination={true}
-        />
-      </div>
+      <h1>Work Experience</h1>
+      {workExp.map((experience, index) => (
+        <InfoBox
+          key={index}
+          title={experience.title}
+          lists={experience.activity}
+        >
+          <p>{experience.company}</p>
+          <p>{experience.period}</p>
+        </InfoBox>
+      ))}
       <Footer />
     </div>
   );
