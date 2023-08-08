@@ -6,7 +6,7 @@
 
 /* Apply styles for larger screens */
 @media (min-width: 768px) {
-  .child h1,p{
+  .App .child h1,p{
     text-align: justify;
     width: 450px;
   }
@@ -15,9 +15,15 @@
 /* Apply styles for smaller screens */
 @media (max-width: 767px) {
 
-.child h1,p{
+  .App .child h1{
     text-align: center;
   }
+  
+  .App .child p{
+    text-align: justify;
+  }
+
+  
 }
 
 .App-logo-wrapper-center {
