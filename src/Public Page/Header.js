@@ -15,7 +15,7 @@ function Header() {
     <div className="header">
       <div className="nav">
         <Link className="navLogo" to="/">
-          <h1>Resume Website</h1>
+          <h1>Christopher Chandra</h1>
         </Link>
 
         {/* Hamburger menu */}

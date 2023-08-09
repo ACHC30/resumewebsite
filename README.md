@@ -2,14 +2,17 @@
 
 -make responsive design.\
 1.work exp and education with a file not array.\
+2.footer (name).\
 
+-skills (boxes? percent bar? other design?).\
+-projects design pic and summary.\
+-design box a bit (background, lines).\
+
+-feedback?.\
+-research paper.\
 -animations.\
-
 -unittest.\
-
 -use giphy api for personal web skill.\
-
--put py class in education after you are done.\w
 
 # Resume Website (React.js)
 
