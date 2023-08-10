@@ -53,6 +53,7 @@ function Education() {
   return (
     <div className="Education">
       <Header />
+      <h1>Degrees and Training</h1>
       {education.map((education, index) => (
         <InfoBox
           key={index}

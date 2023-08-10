@@ -9,19 +9,21 @@ function Skills() {
       <Header />
       <div className="parent">
         <div className="child">
-          <ul>
-            <h1>Coding Skills</h1>
-            <li>C#</li>
-            <li>.NET</li>
-            <li>PHP</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>React Native</li>
-            <li>Python</li>
-            <li>SQL</li>
-          </ul>
+          <div className="list-coding">
+            <ul>
+              <h1>Coding Skills</h1>
+              <li>C#</li>
+              <li>.NET</li>
+              <li>PHP</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>React Native</li>
+              <li>Python</li>
+              <li>SQL</li>
+            </ul>
+          </div>
         </div>
         <div className="child">
           <ul>
