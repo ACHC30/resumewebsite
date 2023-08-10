@@ -34,11 +34,11 @@ function Header() {
           <Link className="link" to="/Skills">
             Skills
           </Link>
-          <Link className="link" to="/Experience">
-            Experience
-          </Link>
           <Link className="link" to="/Education">
             Education and Training
+          </Link>
+          <Link className="link" to="/Experience">
+            Experience
           </Link>
           <Link className="link" to="/Projects">
             Projects
