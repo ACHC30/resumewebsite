@@ -2,10 +2,8 @@
 
 -make responsive design.\
 1.work exp and education with a file not array.\
-
--skills (boxes? percent bar? other design?).\
--projects design pic and summary.\
--design box a bit (background, lines).\
+2.design box a bit (lines).\
+3.projects design summary and make ti into components.\
 
 -feedback?.\
 -research paper.\
