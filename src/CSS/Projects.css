@@ -1,5 +1,5 @@
 /* project css */
-.projectlinks{
+.projectlinks {
     color: #f2f2f2;
     text-align: center;
 }
@@ -8,17 +8,32 @@
     border: solid black;
     background-color: blueviolet;
     margin: 2%;
-    margin-bottom: 0.05%;
     padding: 1%;
     color: #f2f2f2;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: calc(50% - 4%); /* Calculate width with margin accounted for */
 }
 
-/* Apply styles for larger screens */
-@media (min-width: 768px) {
-    .items p { 
-        margin-left: 35.5%;
-        text-align: center;
+/* Responsive Styles for Items */
+@media screen and (max-width: 767px) {
+    .items {
+        margin: 2%;
+        margin-bottom: 1%; /* Adjusted margin for smaller screens */
+        padding: 0.5%; /* Reduced padding for smaller screens */
+        width: calc(100% - 4%); /* Full width on smaller screens */
     }
 }
 
+/* Responsive Styles for Images */
+.items img {
+    max-width: 100%; /* Make images responsive by limiting their width */
+    height: auto; /* Maintain aspect ratio */
+}
 
+/* Responsive Styles for Headings */
+.items h1, .items h2, .items h3, .items h4, .items h5, .items h6 {
+    font-size: 1.5rem; /* Adjust heading font size for responsiveness */
+    margin-top: 0.5rem; /* Add spacing between headings and content */
+}
