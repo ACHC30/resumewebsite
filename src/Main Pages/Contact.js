@@ -16,7 +16,7 @@ function Contact() {
         <div
           className="child"
           style={{
-            background: "content-box radial-gradient(crimson, skyblue)",
+            background: "content-box radial-gradient(#477d71, skyblue)",
             borderRadius: "30px",
           }}
         >
@@ -27,6 +27,9 @@ function Contact() {
             <h2>Phone Number</h2>
             <p>0432 644 477 </p>
 
+            <h2>Email</h2>
+            <p>christopher_chandra@outlook.com</p>
+
             <h2>Linkedin</h2>
             <a href="https://www.linkedin.com/in/christopher-chandra-9601bb1b9/">
               <p>linkedin.com/in/christopher-chandra</p>
@@ -36,9 +39,6 @@ function Contact() {
             <a href="https://github.com/ACHC30">
               <p>https://github.com</p>
             </a>
-
-            <h2>Email</h2>
-            <p>christopher_chandra@outlook.com</p>
           </div>
         </div>
       </div>

@@ -12,24 +12,28 @@ function Projects() {
       <a href="https://github.com/ACHC30/assessment2">
         <div className="items">
           <p>SDN project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>
       <a href="https://github.com/ACHC30/IFN666-Asessment-3">
         <div className="items">
           <p>IFN666 project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>
       <a href="https://github.com/ACHC30/CrucibleProject">
         <div className="items">
           <p>QUT Foundry crucible project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>
       <a href="https://github.com/ACHC30/CAB302_144">
         <div className="items">
           <p>CAB302 project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       {/* contributed */}
@@ -37,18 +41,21 @@ function Projects() {
       <a href="https://github.com/mohitbijanya/IFN649">
         <div className="items">
           <p>IFN649 project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>
       <a href="https://github.com/spencerwhc/IFN711_blockchain_project">
         <div className="items">
           <p>IFN711 project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>
       <a href="https://github.com/AbizardShafwan/CAB302_144">
         <div className="items">
           <p>CAB302_144 project</p>
+          <h1>Picture</h1>
         </div>
       </a>
       <br></br>

@@ -1,3 +1,8 @@
+.info-box{
+    background-color: #946953;
+    color: #0b0b0b;
+}
+
 .info-box h2 {
     margin-top: 0;
 }
@@ -11,7 +16,7 @@
 }
 
 .show-more-link {
-    color: blue;
+    color: rgb(0, 81, 255);
     text-decoration: underline;
     cursor: pointer;
     display: block;

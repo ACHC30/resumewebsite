@@ -6,7 +6,6 @@
 
 .items {
     border: solid black;
-    border-radius: 5%;
     background-color: blueviolet;
     margin: 2%;
     margin-bottom: 0.05%;
@@ -18,7 +17,7 @@
 /* Apply styles for larger screens */
 @media (min-width: 768px) {
     .items p { 
-        margin-left: 35%;
+        margin-left: calc(50% - 250px);
         text-align: center;
     }
 }
