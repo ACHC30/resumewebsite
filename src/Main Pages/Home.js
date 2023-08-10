@@ -1,31 +1,32 @@
-import React, { useState, useEffect } from "react";
-import Popup from "../Components/Popup";
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
 import DownloadPDF from "../Components/DownloadPDF";
 import myFace from "../Images/MyFace.jpg";
 import "../CSS/Home.css";
 
-let hasUseEffectRun = false;
+// import React, { useState, useEffect } from "react";
+// import Popup from "../Components/Popup";
+
+// let hasUseEffectRun = false;
 
 function Home() {
-  const [isPopupOpen, setPopupOpen] = useState(false);
+  // const [isPopupOpen, setPopupOpen] = useState(false);
 
-  const handleClosePopup = () => {
-    setPopupOpen(false);
-  };
+  // const handleClosePopup = () => {
+  //   setPopupOpen(false);
+  // };
 
-  useEffect(() => {
-    if (!hasUseEffectRun) {
-      // This code will run only once when the component mounts
-      hasUseEffectRun = true;
-      setPopupOpen(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (!hasUseEffectRun) {
+  //     // This code will run only once when the component mounts
+  //     hasUseEffectRun = true;
+  //     setPopupOpen(true);
+  //   }
+  // }, []);
 
   return (
     <div className="App">
-      <Popup isOpen={isPopupOpen} onClose={handleClosePopup} />
+      {/* <Popup isOpen={isPopupOpen} onClose={handleClosePopup} /> */}
       <Header />
 
       <div className="parent">

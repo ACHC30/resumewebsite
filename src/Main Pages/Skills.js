@@ -9,8 +9,8 @@ function Skills() {
       <Header />
       <div className="parent">
         <div className="child">
-          <h1>Coding Skills</h1>
           <ul>
+            <h1>Coding Skills</h1>
             <li>C#</li>
             <li>.NET</li>
             <li>PHP</li>
