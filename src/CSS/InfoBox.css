@@ -1,5 +1,19 @@
+/* Common styles */
+.info-box {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff; /* Background color for info boxes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .info-box h2 {
     margin-top: 0;
+    border-bottom: 2px solid #2f3154; /* Divider line below title */
+    padding-bottom: 8px;
+    color: #2f3154; /* Title color */
 }
 
 .info-box ul {
@@ -21,16 +35,11 @@
 /* for larger screen */
 @media (min-width: 768px) {
     .info-box {
-        padding: 15px;
-        border: 1px solid #000000;
-        border-radius: 5px;
-        margin: 10px;
+        border: 1px solid #2f3154; /* Border color for larger screens */
         width: calc(50% - 20px);
-        display: inline-block;
-        vertical-align: top;
     }
 
-    .info-box ul, h4{
+    .info-box ul, h4 {
         text-align: justify;
     }
 }
@@ -38,14 +47,11 @@
 /* for smaller screen */
 @media (max-width: 767px) {
     .info-box {
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 10px;
+        border: 1px solid #ccc; /* Border color for smaller screens */
         width: auto;
     }
 
-    .info-box ul{
+    .info-box ul {
         text-align: justify;
     }
 }
