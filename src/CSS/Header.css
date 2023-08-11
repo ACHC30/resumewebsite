@@ -89,4 +89,10 @@
     width: 100%; /* Occupy the full width of .nav */
     padding: 1rem; /* Add padding for better spacing */
   }
+
+  /* Increase font size for navMenu links when hamburger is active */
+  .navMenu.active .link {
+    font-size: 1.6rem;
+    margin-right: 20px;
+  }
 }
