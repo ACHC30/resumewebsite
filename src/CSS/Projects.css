@@ -21,7 +21,7 @@
     .items {
         margin: 2%;
         margin-bottom: 1%; /* Adjusted margin for smaller screens */
-        padding: 0.5%; /* Reduced padding for smaller screens */
+        padding: 4%; /* Reduced padding for smaller screens */
         width: calc(100% - 4%); /* Full width on smaller screens */
     }
 }
@@ -33,7 +33,17 @@
 }
 
 /* Responsive Styles for Headings */
-.items h1, .items h2, .items h3, .items h4, .items h5, .items h6 {
+.items h1, .items h2, .items h3, .items h4, .items h5, .items h6  {
+    color: #f2f2f2;
     font-size: 1.5rem; /* Adjust heading font size for responsiveness */
     margin-top: 0.5rem; /* Add spacing between headings and content */
+}
+
+.items p{
+    color: #f2f2f2;
+    text-align: justify;
+}
+
+.items a{
+    text-decoration: none;
 }
