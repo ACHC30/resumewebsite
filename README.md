@@ -1,8 +1,5 @@
 # To do List:
-
--make responsive design.\
-1.work exp and education with a file not array.\
-2.design box a bit (lines).\
+1.design box a bit (lines).\
 
 -feedback?.\
 -research paper.\

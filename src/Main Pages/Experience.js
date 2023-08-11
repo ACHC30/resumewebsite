@@ -2,23 +2,10 @@ import React from "react";
 import Header from "../Public Page/Header";
 import Footer from "../Public Page/Footer";
 import InfoBox from "../Components/InfoBox.js";
+import workExp from "../Data/WorkExperienceData.json";
 import "../CSS/Experience.css";
 
 function Experience() {
-  const [workExp, setWorkExp] = React.useState([]);
-
-  React.useEffect(() => {
-    // Fetch the workExp data from the JSON file
-    fetch(
-      "https://github.com/ACHC30/resumewebsite-React.js-/raw/master/Files/workExperienceData.json"
-    )
-      .then((response) => response.json())
-      .then((data) => setWorkExp(data))
-      .catch((error) =>
-        console.error("Error fetching work experience data:", error)
-      );
-  }, []);
-
   return (
     <div className="Experience">
       <Header />
