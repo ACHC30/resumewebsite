@@ -3,7 +3,6 @@
 -make responsive design.\
 1.work exp and education with a file not array.\
 2.design box a bit (lines).\
-3.projects design summary and make ti into components.\
 
 -feedback?.\
 -research paper.\
