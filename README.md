@@ -1,11 +1,9 @@
 # To do List:
-1.design box a bit (lines).\
-
+-animations tailwind .css .\
 -feedback?.\
--research paper.\
--animations.\
--unittest.\
--use giphy api for personal web skill.\
+
+
+
 
 # Resume Website (React.js)
 
