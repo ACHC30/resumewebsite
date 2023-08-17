@@ -1,5 +1,6 @@
 # To do List:
--animations tailwind .css .\
+-more animation.\
+-file up the projects.\
 -feedback?.\
 
 
