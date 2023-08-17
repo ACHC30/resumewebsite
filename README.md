@@ -1,6 +1,5 @@
 # To do List:
 -more animation better than fade in.\
--file up the projects.\
 -feedback?.\
 
 
