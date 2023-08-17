@@ -1,8 +1,12 @@
 import "../CSS/DownloadPDF.css";
+import "../CSS/FadeIn.css";
 
 import React from "react";
+import useFadeIn from "./FadeinHook";
 
 const DownloadPDF = () => {
+  const isVisible = useFadeIn();
+
   const download = () => {
     const link = document.createElement("a");
     link.href =
@@ -14,7 +18,7 @@ const DownloadPDF = () => {
   };
 
   return (
-    <div>
+    <div className={`fade-in ${isVisible ? "active" : ""}`}>
       <h1>Download Latest CV</h1>
       <button className="button-download" onClick={download}>
         Download PDF
