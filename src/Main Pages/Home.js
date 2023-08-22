@@ -35,20 +35,29 @@ function Home() {
 
         <div className="parent">
           <div className="child">
-            <img src={myFace} className="App-logo-circular" alt="logo" />
+            <div
+              className={`fade-in ${isVisible ? "active" : ""} animationLeft`}
+            >
+              <img src={myFace} className="App-logo-circular" alt="logo" />
+            </div>
           </div>
 
           <div className="child">
-            <h1>A bit about me</h1>
-            <p>
-              My name is Christopher Chandra. I am a software developer for both
-              the back and front end of development. Ever since I was a child I
-              was always quiet, and I was also fascinated by technology.
-              Building high-quality software always makes people's lives easier,
-              which is why I love building software. As a follow-up to my
-              father's legacy, I aim to work in the IT industry to do what I
-              love and help others in the process as well.
-            </p>
+            <div
+              className={`fade-in ${isVisible ? "active" : ""} animationRight`}
+            >
+              <h1>A bit about me</h1>
+              <p>
+                My name is Christopher Chandra. I am a software developer for
+                both the back and front end of development. Ever since I was a
+                child I was always quiet, and I was also fascinated by
+                technology. Building high-quality software always makes people's
+                lives easier, which is why I love building software. As a
+                follow-up to my father's legacy, I aim to work in the IT
+                industry to do what I love and help others in the process as
+                well.
+              </p>
+            </div>
           </div>
         </div>
 
