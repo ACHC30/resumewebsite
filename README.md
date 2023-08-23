@@ -1,5 +1,5 @@
 # To do List:
--more animation better than fade in.\
+-test if we need the fade in active?
 -feedback?.\
 
 
