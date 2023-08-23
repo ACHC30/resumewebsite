@@ -18,7 +18,7 @@ const DownloadPDF = () => {
   };
 
   return (
-    <div className={`fade-in ${isVisible ? "active" : ""}`}>
+    <div className={`fade-in ${isVisible ? "active" : ""} animationBottom`}>
       <h1>Download Latest CV</h1>
       <button className="button-download" onClick={download}>
         Download PDF

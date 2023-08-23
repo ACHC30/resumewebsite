@@ -11,7 +11,7 @@
 .animationLeft {
     opacity: 0;
     transform: translateX(-100%);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .animationLeft.active {
@@ -28,4 +28,27 @@
 .animationRight.active {
     opacity: 1;
     transform: translateX(0);
+}
+
+
+.animationBottom {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.animationBottom.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animationTop{
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.animationTop.active {
+    opacity: 1;
+    transform: translateY(0);
 }
