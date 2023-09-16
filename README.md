@@ -1,9 +1,8 @@
 # To do List:
+
+-fix problem with header mobile going through the elements
 -test if we need the fade in active?
 -feedback?.\
-
-
-
 
 # Resume Website (React.js)
 
