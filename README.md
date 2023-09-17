@@ -1,8 +1,10 @@
 # To do List:
 
+-icon
 -fix problem with header mobile going through the elements
--test if we need the fade in active?
--feedback?.\
+-feedback?
+-web api project and link it
+-aws amplify multiple github
 
 # Resume Website (React.js)
 
