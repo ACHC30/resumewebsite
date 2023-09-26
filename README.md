@@ -1,6 +1,5 @@
 # To do List:
 
--feedback?
 -aws amplify multiple github
 -web api project and link it
 
