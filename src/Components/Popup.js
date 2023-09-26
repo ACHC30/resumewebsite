@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/Popup.css";
 
-const Popup = ({ isOpen, onClose }) => {
+const Popup = ({ isOpen, onClose, title, context }) => {
   if (!isOpen) return null;
 
   return (
@@ -10,11 +10,8 @@ const Popup = ({ isOpen, onClose }) => {
         <span className="close-btn" onClick={onClose}>
           &times;
         </span>
-        <h2 style={{ color: "black" }}>Sorry!</h2>
-        <p style={{ color: "black" }}>
-          This website is not fully mobile friendly yet. there will be future
-          updates to fix this issue. I apologize for the inconvenience!
-        </p>
+        <h2 style={{ color: "black", textAlign: "center" }}>{title}</h2>
+        <p style={{ color: "black", textAlign: "center" }}>{context}</p>
         <button className="button-okay" onClick={onClose}>
           Okay
         </button>

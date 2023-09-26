@@ -42,6 +42,9 @@ function Header() {
           <Link className="link" to="/Projects">
             Projects
           </Link>
+          <Link className="link" to="/FeedBack">
+            FeedBack
+          </Link>
         </div>
       </div>
     </div>
