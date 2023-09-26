@@ -12,16 +12,6 @@ import Experience from "./Main Pages/Experience";
 import Skills from "./Main Pages/Skills";
 import Projects from "./Main Pages/Projects";
 
-// import ReactSkills from "./Main Pages/SkillsWithReact";
-//skills with react pages
-// import API from "./Skills With React Pages/API";
-// import Animation from "./Skills With React Pages/Animation";
-// import Client from "./Skills With React Pages/Client";
-// import Database from "./Skills With React Pages/Database";
-// import DateTime from "./Skills With React Pages/DateTime";
-// import Files from "./Skills With React Pages/Files";
-// import Server from "./Skills With React Pages/Server";
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -33,16 +23,6 @@ root.render(
         <Route path="/Experience" element={<Experience />}></Route>
         <Route path="/Skills" element={<Skills />}></Route>
         <Route path="/Projects" element={<Projects />}></Route>
-
-        {/* <Route path="/ReactSkills" element={<ReactSkills />}></Route> */}
-        {/* React Skills Pages */}
-        {/* <Route path="/API" element={<API />}></Route>
-        <Route path="/Animation" element={<Animation />}></Route>
-        <Route path="/Client" element={<Client />}></Route>
-        <Route path="/Database" element={<Database />}></Route>
-        <Route path="/DateTime" element={<DateTime />}></Route>
-        <Route path="/Files" element={<Files />}></Route>
-        <Route path="/Server" element={<Server />}></Route> */}
       </Routes>
     </Router>
   </React.StrictMode>
