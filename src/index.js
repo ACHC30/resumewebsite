@@ -11,6 +11,7 @@ import Education from "./Main Pages/Education";
 import Experience from "./Main Pages/Experience";
 import Skills from "./Main Pages/Skills";
 import Projects from "./Main Pages/Projects";
+import FeedBack from "./Main Pages/Feedback";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route path="/Experience" element={<Experience />}></Route>
         <Route path="/Skills" element={<Skills />}></Route>
         <Route path="/Projects" element={<Projects />}></Route>
+        <Route path="/FeedBack" element={<FeedBack />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>
