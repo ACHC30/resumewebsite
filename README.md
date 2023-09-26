@@ -1,15 +1,12 @@
 # To do List:
 
--icon
--fix problem with header mobile going through the elements
 -feedback?
--web api project and link it
 -aws amplify multiple github
+-web api project and link it
 
 # Resume Website (React.js)
 
-**My own personal project, I will attempt to make a website that will show my skills in the most interesting way possible.
-**
+**My own personal project, I will attempt to make a website that will show my skills in the most interesting way possible.**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
