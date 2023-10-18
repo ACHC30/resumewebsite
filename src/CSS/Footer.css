@@ -49,23 +49,3 @@
 .footer-basic .social > a:hover {
   opacity:0.9;
 }
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#f2f2f2;
-  margin-bottom:0;
-}
-
-/* Apply styles for larger screens */
-@media (min-width: 768px) {
-  .footer-basic .copyright {
-    margin-top:15px;
-    margin-left: 35.3%;
-    text-align:center;
-    font-size:13px;
-    color:#f2f2f2;
-    margin-bottom:0;
-  }
-}
