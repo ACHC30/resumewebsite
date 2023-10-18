@@ -20,7 +20,6 @@ function Footer() {
           <FontAwesomeIcon icon={faWix} />
         </a>
       </div>
-      <p className="copyright">Christopher Chandra © 2023</p>
     </div>
   );
 }
