@@ -22,6 +22,28 @@
         ]
       },
       {
+        "company": "Javier Garcia Lopez, Brisbane, QLD",
+        "title": "IT Freelancer Contract",
+        "period": "Sep 2023 to Oct 2023",
+        "activity": [
+          "Establish Docker Compose connectivity with an AWS EC2 instance",
+          "Facilitate the deployment of both the backend and frontend systems on the client's computer.",
+          "Contribute to the development of React JavaScript components for the frontend.",
+          "Successfully resolve deployment-related system issues and bugs"
+        ]
+      },
+      {
+        "company": "Javier Garcia Lopez, Brisbane, QLD",
+        "title": "IT Freelancer Contract",
+        "period": "Oct 2023 to Nov 2023",
+        "activity": [
+          "Oversee backend deployment and AWS service management",
+          "Implement server scaling through AWS Auto Scaling groups",
+          "Utilize Amazon Relational Database Service for data storage",
+          "Created project documentation"
+        ]
+      },
+      {
         "company": "QUT",
         "title": "Blockchain-Based Assessment Ledger Website",
         "period": "Jan 2022 to Jun 2022",
@@ -54,6 +76,26 @@
           "Created a website that is used to schedule final exam for the students in UBAYA",
           "Implemented PHP for backend development ",
           "Designed the front-end using HTML"
+        ]
+      },
+      {
+        "company": "Queensland University of Technology",
+        "title": "IFN666 Assessment 2 Project",
+        "period": "Jan 2022 to Jun 2022",
+        "activity": [
+          "Successfully created a website designed to monitor and analyse stock market fluctuation using both financial modelling prep and alpha vantage APIs.",
+          "Demonstrated skills in JavaScript front-end development",
+          "Demonstrated proper use of API to get stock prices data and visualize them properly on the website."
+        ]
+      },
+      {
+        "company": "Queensland University of Technology",
+        "title": "IFN666 Assessment 3 Project",
+        "period": "Jan 2022 to Jun 2022",
+        "activity": [
+          "Successfully created a mobile app based on the IFN666 assessment 2 designed to monitor and analyse stock market fluctuation using both financial modelling prep and alpha vantage APIs",
+          "Demonstrated skills in React Native JavaScript",
+          "Demonstrated proper use of API to get stock prices data and visualize them properly in the website."
         ]
       },
       {
