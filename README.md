@@ -1,6 +1,6 @@
 # To do List:
 
--aws amplify multiple github
+-aws amplify multiple github (maybe use aws ec2 or dokcers?)
 -web api project and link it
 
 # Resume Website (React.js)
